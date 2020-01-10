@@ -164,6 +164,12 @@ hr {
   border-radius: 20%;
 }
 
+.project-ss:hover {
+  border-style: 4px solid black;
+  border-radius: 20%;
+  opacity: 60%;
+}
+
 .project-header {
   color: #1fab89;
   font-family: 'Montserrat', sans-serif;
