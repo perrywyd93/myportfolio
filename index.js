@@ -1,4 +1,8 @@
-
+$(document).ready(function () {
+    setTimeout(function(){
+        $('.sun').fadeIn(500);
+    }, 750);
+});
 
 $(".topnav li a").click(function(e) {
 
@@ -9,4 +13,17 @@ $(".topnav li a").click(function(e) {
   }, 1000);
 
   e.preventDefault();
+});
+
+var i = 0;
+var txt = "I'm Perry."; /* The text */
+var speed = 50; /* The speed/duration of the effect in milliseconds */
+
+$(document).ready(function typeWriter() {
+  if (i < txt.length) {
+    document.getElementById("name-intro").innerHTML += txt.charAt(i);
+    i++;
+    setTimeout(typeWriter, speed);
+  }
+
 });
