@@ -67,11 +67,11 @@ li {
 
 .sun {
   display: none;
-  height: 75px;
+  height: 20%;
   position: absolute;
-  left: 30%;
-  top: 10%;
-  width: 75px;
+  left: 450px;
+  top: 100px;
+  width: 8%;
 }
 
 .cloud-1 {
